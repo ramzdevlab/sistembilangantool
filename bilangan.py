@@ -2,7 +2,7 @@ print('\nNUMERAL SYSTEM TOOL')
 print('|----  BY FAHMI  ----|\n')
 print('TOOL MENU :\n',
       '[1] NUMBER CONVERTION\n',
-      '[2] ARITMATICS NUMBER\n')
+      '[2] ARITMATICS\n')
 
 inputmenu = input('SELECT MENU : ')
 
