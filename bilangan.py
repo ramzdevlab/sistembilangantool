@@ -103,50 +103,50 @@ elif int(inputmenu) == 2 :
                         input2 = input('Enter Second Number : ')
                         if menuapp == 1 :
                               jumlahbiner = int(input1, 2) + int(input2, 2)
-                              print(bin(jumlahbiner))
+                              print('\nResult : ', bin(jumlahbiner)[2:])
                         elif menuapp == 2 :
                               jumlahoctal = int(input1, 8) + int(input2, 8)
-                              print(oct(jumlahoctal))
+                              print('\nResult : ', oct(jumlahoctal)[2:])
                         elif menuapp == 3 :
                               jumlahhexa = int(input1, 16) + int(input2, 16)
-                              print(hex(jumlahhexa))
+                              print('\nResult : ', hex(jumlahhexa)[2:])
 
             elif menuarit == 2 :
                         input1 = input('Enter First Number : ')
                         input2 = input('Enter Second Number : ')
                         if menuapp == 1 :
                               kurangbiner = int(input1, 2) - int(input2, 2)
-                              print(bin(kurangbiner))
+                              print('\nResult : ', bin(kurangbiner)[2:])
                         elif menuapp == 2 :
                               kurangoctal = int(input1, 8) - int(input2, 8)
-                              print(oct(kurangoctal))
+                              print('\nResult : ', oct(kurangoctal)[2:])
                         elif menuapp == 3 :
                               kuranghexa = int(input1, 16) - int(input2, 16)
-                              print(hex(kuranghexa))
+                              print('\nResult : ', hex(kuranghexa)[2:])
             elif menuarit == 3 :
                         input1 = input('Enter First Number : ')
                         input2 = input('Enter Second Number : ')
                         if menuapp == 1 :
                               kalibiner = int(input1, 2) * int(input2, 2)
-                              print(bin(kalibiner))
+                              print('\nResult : ', bin(kalibiner)[2:])
                         elif menuapp == 2 :
                               kalioctal = int(input1, 8) * int(input2, 8)
-                              print(oct(kalioctal))
+                              print('\nResult : ', oct(kalioctal)[2:])
                         elif menuapp == 3 :
                               kalihexa = int(input1, 16) * int(input2, 16)
-                              print(hex(kalihexa))
+                              print('\nResult : ', hex(kalihexa)[2:])
             elif menuarit == 4 :
                         input1 = input('Enter First Number : ')
                         input2 = input('Enter Second Number : ')
                         if menuapp == 1 :
                               bagibiner = int(input1, 2) // int(input2, 2)
-                              print(bin(bagibiner))
+                              print('\nResult : ', bin(bagibiner)[2:])
                         elif menuapp == 2 :
                               bagioctal = int(input1, 8) // int(input2, 8)
-                              print(oct(bagioctal))
+                              print('\nResult : ', oct(bagioctal)[2:])
                         elif menuapp == 3 :
                               bagihexa = int(input1, 16) // int(input2, 16)
-                              print(hex(bagihexa))
+                              print('\nResult : ', hex(bagihexa)[2:])
 
 
 
